@@ -37,7 +37,9 @@ $ docker-compose up -d --build
 
 ## Style transfer and models
 
-Style transfer is an image transformation problems, where an input image is transformed into an output image. Its goals is to pick up the style of an on image which is represented in a trained model and apply to another image.
-The 2016 [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://cs.stanford.edu/people/jcjohns/eccv16/) paper introduced fast-style transfer, which allows to style any image in a single pass, instead of multiple runs.
+Style transfer is an image transformation operation, where an input image is transformed into an output image.
+Its goals is to pick up the style of an image which is represented in a trained model and apply to another image.
+The 2016 [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://cs.stanford.edu/people/jcjohns/eccv16/) paper introduced `fast-style transfer`,
+which allows to style any image in a single pass, instead of multiple runs.
 
 The research described in the article created nine different trained models, which will be used in this demo.
